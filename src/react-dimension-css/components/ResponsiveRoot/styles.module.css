@@ -1,0 +1,11 @@
+.responsiveRoot {
+    width: 100%;
+    height: 100%;
+}
+
+.responsiveResizer {
+    --scaleFactor: 1;
+    width: 100%;
+    height: 100%;
+    transform: scale3d(var(--scaleFactor), var(--scaleFactor), var(--scaleFactor));
+}
